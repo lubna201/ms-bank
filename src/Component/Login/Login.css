@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(to right, rgba(35, 90, 161, 0.133), rgba(255, 255, 255, 0.133), rgba(250, 250, 250, 0.133));
+}
+.loginPage{
+    margin-top: 170px;
+    width:50%;
+    background-color: rgb(200, 229, 248);
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: 25%;
+    text-align: center;
+}
+.loginPage button{
+    border-radius: 10px;
+    border:2px solid wheat;
+    background-color:rgb(20, 20, 20);
+    width:85%;
+    height:70px;
+    justify-content: center;
+    margin: 20px;
+}
+.ship-form{
+    justify-content: center;
+}
+.ship-form input{
+    border-radius: 10px;
+    padding:10px;
+    border:2px solid rgb(20, 20, 20);
+    width:85%;
+    height:70px;
+    justify-content: center;
+    margin: 30px;
+}
