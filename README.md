@@ -1,71 +1,38 @@
-# Getting Started with Create React App
+# Ms Bank- A Group Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a running project. It is about a banking system project. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## React
+## HTML
+## CSS
+## Bootstrap
+## Firebase
 
-### `npm start`
+### Home page:
+Navbar, For each link it will go according to the route, to go to service or any person's profile there will be a private route. First it will go to login. after login authentication( which is done by firebase authentication) it will go the service and profile route. 
+Header part there is two button , by these user can to that following page or part. 
+Then there are some service and loans. To know more about it user have to click the button. 
+Contact form, user can send any message to the bank and know more about the service.
+In footer part, there are some link. So that user can easily find any service, loan or our contact info. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### About Us page:
+This page is simple . Just few sentences about us.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Contact Us page:
+This page has some rules in office. and contact form.
 
-### `npm test`
+### Profile page:
+In order to go to this page , there will be a private route, user have to login first and then can see the services. User can deposit , withdraw and transfer money. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Notice page:
+This page have all the notice that is given by the ms bank. User can easily find out the current activities about the bank here.
 
-### `npm run build`
+### Login page:
+This page has firebase login authentication. Email, password authentication and google authentication. After login user will go to their profile and then take the services. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Type this following in terminal of the project:
+### npm start
+After waiting for a while it will show the live site. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# ms-bank
